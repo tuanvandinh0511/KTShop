@@ -58,7 +58,7 @@
       <Name>KTShop.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\KTShop.Data\KTShop.Data.csproj">
-      <Project>{64036e4e-2ede-48e7-9a2e-832b2784048b}</Project>
+      <Project>{b3ff53f0-ffaf-4182-a0af-23b58a7e7336}</Project>
       <Name>KTShop.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\KTShop.Model\KTShop.Model.csproj">
