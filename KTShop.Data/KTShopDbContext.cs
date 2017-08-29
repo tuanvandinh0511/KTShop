@@ -1,10 +1,5 @@
 ﻿using KTShop.Model.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KTShop.Data
 {
@@ -14,6 +9,7 @@ namespace KTShop.Data
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
+
         public DbSet<Footer> Footers { get; set; }
         public DbSet<Menu> Menus { set; get; }
         public DbSet<MenuGroup> MenuGroups { set; get; }
@@ -32,10 +28,8 @@ namespace KTShop.Data
         public DbSet<Tag> Tags { set; get; }
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
 
-
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-            
         }
     }
 }
