@@ -3,7 +3,7 @@ using KTShop.Model.Models;
 
 namespace KTShop.Data.Repositories
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepository<Product>
     {
     }
 
